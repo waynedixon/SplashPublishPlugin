@@ -4,6 +4,7 @@
 *  Splash plugin for Publish
 *  Copyright (c) John Sundell 2019
 *  MIT license, see LICENSE file for details
+*  Forked by Wayne Dixon 2023
 */
 
 import PackageDescription
@@ -18,7 +19,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/johnsundell/Publish.git", from: "0.9.0"),
+        .package(url: "https://github.com/waynedixon/Publish.git", from: "0.9.0"),
         .package(url: "https://github.com/johnsundell/Splash.git", from: "0.16.0")
     ],
     targets: [
